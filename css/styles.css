@@ -1,0 +1,157 @@
+body{
+    text-align: center;
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: Montserrat;
+    text-align: left;
+
+}
+
+.container-fluid {
+    padding: 3% 8% 0%;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    padding-bottom: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.0rem;
+
+}
+
+#iphoneimg {
+    transform: rotate(30deg);
+    width: 40%;
+    position: relative;
+    top: 80px;
+    left: 200px;
+
+
+}
+
+.download-button {
+    margin: 5% 2%;
+}
+
+#features {
+    padding: 5% 0%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.i-icon {
+    font-size: 50px;
+    padding: 40px 10px 20px 10px;
+    color: #ef8172;
+
+}
+
+.i-text {
+    color: #8f8f8f;
+    padding-top: 30px 5px 5px 5px;
+    margin-bottom: 30px;
+}
+
+.i-icon:hover {
+    color: #ff4c68;
+}
+
+
+#testimonials {
+
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+.dog-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 5px 10px 5px;
+}
+
+
+#press {
+    background-color: #ff4c68;
+    padding: 20px;
+
+}
+
+.pressimages {
+    width: 12%;
+    padding: 20px;
+}
+
+#pricing {
+    margin-top: 20px;
+    padding: 3% 15%;
+}
+
+@media (max-width:990px) {
+    #iphoneimg {
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: Montserrat;
+    padding: 5% 8% 3%;
+
+}
+
+#footer {
+    background-color: #fff;
+    padding: 4% 8%;
+}
+
+#footerfonts {
+    padding: 3.5% 2%;
+}
+
+#ctaheading {
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
